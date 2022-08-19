@@ -1,0 +1,44 @@
+.main{
+    width:750px;
+    height: 630px;
+    background-color: blue;
+    margin: auto;
+}
+.header{
+    width: 750px;
+    height: 80px; 
+    background-color: brown;
+    
+}
+.logo{
+    width: 200px;
+    height:80px ;
+    background-color: beige;
+    text-align: center;
+}
+.socialmedia{
+ float: right;
+    width: 550px;
+    height: 40px;
+    text-align: center;
+    background-color: aqua;
+}
+.menu{
+    float: right;
+    width: 550px;
+    height: 40px;
+    text-align: center;
+    background-color: orange;
+}
+.container{
+width: 750px;
+height: 500px;
+background-color: green;
+text-align: center;
+}
+.footer{
+    width: 750px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+}

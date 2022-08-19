@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+.main{
+    height: 1500px;
+    width: 900px;
+    background-color: yellowgreen;
+    margin: auto;
+}
+.header{
+    height: 300px;
+    width: 900px;
+    background-color: purple;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+ img{
+    height: 299px;
+    width: 299px;
+}
+.social{
+    height: 200px;
+    width: 600px;
+    background-color: brown;
+    float: left;
+}
+.social img{
+    height: 199px;
+    width: 599px;
+}
+.menu{
+    height: 100px;
+    width: 600px;
+    background-color: black;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    border: 1px solid blue;
+    color: white;
+    border-radius: 20px;
+    width: 130px;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 15px;
+    background-color: yellowgreen;
+}
+.menu ul li a{
+    font-size: 20px;
+line-height: 100px;
+text-decoration: none; 
+}
+.menu ul li a:hover{
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.container{
+    height: 1100px;
+    width: 900px;
+}
+.carasoul{
+    height: 500px;
+    width: 900px ;
+}
+.carasoul img{
+    height: 499px;
+    width: 899px;
+    float: left;
+}
+.gallery{
+    height: 600px;
+    width: 900px;
+}
+.product{
+    height: 600px;
+    width: 300px;
+    float: left;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+.product img{
+    height: 299px;
+    width: 299px;
+    float: left;
+}
+.product h1{
+    text-align: center;
+}
+.product form{
+    text-align: center;
+    font-size: 16px;
+}
+.project{
+    height: 600px;
+    width: 600px;
+    margin-left: 220px;
+}
+.project h1{
+    text-align: center;
+    color: red;
+}
+.project img{
+    height: 160px;
+    width: 160px;
+    margin-left: 5px;
+    padding: 1px;
+    margin-top: 15px;
+    border: 1px solid orange;
+}
+.footer{
+    height: 100px;
+    width: 900px;
+    background-color: teal;
+
+}
+.fa-facebook{
+    color:  blue;
+    font-size: 50px;
+    background-color: lightblue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border: 1px solid;
+    border-radius: 20px;
+    float: left;
+    margin-left: 50px;   
+}
+.fa-whatsapp{
+    color: white;
+    font-size: 50px;
+    background-color:green;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 20px;
+}

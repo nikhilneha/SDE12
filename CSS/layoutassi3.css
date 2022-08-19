@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 400px;
+    width: 650px;
+    background-color: ;
+    margin: auto;
+    margin-top: 100px;
+}
+.header{
+    height: 50px;
+    width: 650px;
+    background-color: aquamarine;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+}
+.header h2{
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    color: black;
+}
+.container{
+    height: 300px;
+    width: 650px;
+    margin-top: 5px;
+}
+.sidebar{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    float: left;
+    color: white;
+}
+.sidebar h2{
+    text-align: center;
+    line-height: 300px;
+}
+.content{
+    height: 300px;
+    width: 345px;
+    background-color: aquamarine;
+    float: left;
+    margin-left: 5px;
+}
+.content h2{
+    text-align: center;
+    line-height: 300px;
+    color: white;
+}

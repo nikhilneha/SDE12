@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/Images/Interior/istockphoto-1328486545-170667a.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.main{
+    width:1400px;
+    height: 750px;
+    margin: auto;
+}
+.header{
+    width: 1300px;
+    height: 150px; 
+}
+.logo{
+    width: 400px;
+    height:150px ;
+    background-color: aqua;
+}
+img{
+    width: 350px;
+    height: 140px;
+}
+.socialmedia{
+ float: right;
+    width: 900px;
+    height: 75px;
+    text-align: right;
+}
+ ul li{
+display: inline-block;
+margin-top: 20px;
+padding: 10px;
+padding-right: 30px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+list-style-type: none;
+}
+ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.menu{
+    float: right;
+    width: 900px;
+    height: 75px;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+}
+.container{
+width: 1300px;
+height: 500px;
+text-align: center;
+}
+h1{
+    margin-top: 200px;
+    margin-left: 55%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    padding: -5px -5px;
+}
+h4{
+    font-size: 25px;
+    color: white;
+}
+.button{
+   top: 75%;
+   left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    border-color: #009688;
+    font-size: 20px;
+    text-decoration: none;
+    border-width: 1px;
+    padding: 12px 12px;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: orange;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.footer{
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+}

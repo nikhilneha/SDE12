@@ -1,0 +1,15 @@
+a=38
+b=47
+c=23
+add=a+b
+console.log("add:-"+add)
+sub=b-c+a
+console.log("sub:-"+sub)
+mult=a*b*c
+console.log("mult:-"+mult)
+div=b/c
+console.log("div:-"+div)
+mod=c%a
+console.log("mod:-"+mod)
+greaterthan=c>a
+console.log(greaterthan)

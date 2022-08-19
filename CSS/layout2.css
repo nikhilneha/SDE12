@@ -1,0 +1,128 @@
+.main{
+    height: 1100px;
+    width: 750px;
+    background-color: #009688;
+    margin: auto;
+}
+.header{
+    height:150px ;
+    width: 750px;
+    background-color: black;
+}
+.logo{
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+.logo img{
+    height: 149px;
+    width: 298px;
+}
+.social{
+    height: 100px;
+    width: 450px;
+    float: left;
+}
+.social img{
+    height: 99px;
+    width: 449px;
+}
+.menu{
+    height: 50px;
+    width: 450px;
+    float: left;
+}
+.menu ul li{
+    float: left;
+    width:95px ;
+    list-style-type: none;
+}
+ ul li a{
+ font-size: large;
+text-decoration: none;
+border: 1px solid red;
+border-radius: 20px;
+background-color: yellow;
+display: block;
+text-align: center;
+margin-left:10px ;
+}
+ul li a:hover{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+.container{
+    height: 900px;
+    width: 750px;
+    background-color: yellowgreen;
+}
+.carasoul{
+    height:500px ;
+    width: 750px;
+    background-color: yellowgreen;
+    float: left;
+}
+.carasoul img{
+    height: 500px;
+    width: 750px;
+}
+.gallery{
+    height: 400px;
+    width: 750px;
+    background-color: black;
+    float: left;
+}
+.product {
+height: 400px;
+width: 180px;
+float: left;
+border: 1px solid red;
+margin-left: 5px;
+border-radius: 10px;
+}
+.product h2{
+    text-align: center;
+    color: white;
+}
+.product img{
+    height: 180px;
+    width: 178px;
+}
+.product p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footer{
+    height: 50px;
+    width: 750px;
+    background-color: tomato;
+}
+.fa-facebook{
+    color:  blue;
+    font-size: 50px;
+    background-color: lightblue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border: 1px solid;
+    border-radius: 20px;
+    float: left;
+ margin-left: 250px;   
+}
+.fa-whatsapp{
+    color: white;
+    font-size: 50px;
+    background-color:green;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 30px;
+    margin-left: 20px;
+}

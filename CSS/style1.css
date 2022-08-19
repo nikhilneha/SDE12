@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century Gothic;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/Images/Interior/interior.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+ul{
+    float: inline-start;
+    list-style-type: none;
+    margin-left: 300px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: #fff;
+}
+ul li a:hover{
+    color: yellow;
+}
+h2{
+    margin-left: auto;
+    margin-top: 20px;
+    color: red;
+    padding:10px 10px;
+    font-size: 40px;
+}
+.main{
+    margin: auto;
+    max-width: 1200px;
+}
+.button{
+    float: right;
+ }
+ .mtn{
+    border: 1px solid;
+    padding: 12px 12px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    border-color:#fff;
+    background-color:transparent;
+    transition:0.5sec ;
+ }
+ .button .mtn:hover{
+    background-color:#fff;
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;   
+ }
+ .title{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+ }   
+h1{
+    color: #fff;
+    font-size:40px;
+    font-style: italic;
+    font-weight: bold;
+}
+h5{
+    color: aliceblue;
+    font-size: 17px;
+}
+.box{
+position: absolute;
+top: 50%;
+left: 35%;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 12px 12px;
+    color:antiquewhite;
+    text-decoration: none;
+    border-radius: 30px;
+    border-color:#009688;
+    background-color:transparent;
+}
+.box .btn:hover{
+    background-color: beige;
+    color: red;
+    
+}

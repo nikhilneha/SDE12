@@ -1,0 +1,15 @@
+topic="binaryoperator"
+console.log("topic:"+topic)
+p=89
+q=134
+r=567
+addition=p+q+r
+console.log("addition:"+p+"+"+q+"+"+r+"="+addition)
+sub=r-p-q
+console.log("sub:"+r+"-"+q+"-"+p+"="+sub)
+mult=p*r*q
+console.log("mult:"+p+"*"+r+"*"+q+"="+mult)
+div=r/p
+console.log("div:"+r+"/"+p+"="+div)
+mod=q%p
+console.log("mod"+q+"%"+p+"="+mod)
